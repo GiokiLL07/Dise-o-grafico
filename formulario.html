@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+    <title>Formulario de Solicitud de Información</title>
+</head>
+<body>
+    <h1>Solicitar Información</h1>
+
+    <form action="#" method="POST">
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+       
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+       
+        <label for="tipo-info">Tipo de información solicitada:</label>
+        <select id="tipo-info" name="tipo-info" required>
+            <option value="hospedaje">Hospedaje</option>
+            <option value="reserva-vuelo">Reservación de vuelo</option>
+            <option value="reserva-hotel">Reservación de hotel</option>
+            <option value="sugerencia-lugares">Sugerencia de lugares a visitar</option>
+        </select><br><br>
+
+       
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+    
+    <p><a href="index.html">Volver a la página principal</a></p>
+</body>
+</html>

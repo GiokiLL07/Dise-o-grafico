@@ -1,0 +1,56 @@
+/* Establece un color de fondo para toda la página */
+body {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #f5f5f5; /* Texto claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del título con un color diferente */
+h1 {
+    color: #4CAF50; /* Verde */
+}
+
+/* Color de fondo para tablas (añadido por si en el futuro hay tablas) */
+table {
+    background-color: #333333; /* Fondo diferente al de la página */
+    color: #ffffff; /* Texto claro en tablas */
+}
+
+/* Bordes curvos en las imágenes */
+img {
+    border-radius: 10px; /* Bordes curvos */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #4CAF50; /* Color de fondo de los botones */
+    color: white; /* Texto blanco en los botones */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes curvos en los botones */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el mouse */
+}
+
+/* Estilo de los inputs */
+input[type="text"], input[type="email"], select {
+    padding: 8px;
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes curvos en los campos de texto */
+}
+
+/* Estilo del enlace */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
